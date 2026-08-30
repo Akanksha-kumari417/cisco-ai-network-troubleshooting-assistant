@@ -4,13 +4,13 @@ C02,VLAN,none,REVIEW
 C03,Trunking,"missing_vlan, trunk_problem",REVIEW
 C04,Trunking,"trunk_problem, nat_problem",REVIEW
 C05,Inter-VLAN Routing,"missing_route, trunk_problem",REVIEW
-C06,Inter-VLAN Routing,gateway_mismatch,PASS
-C07,Inter-VLAN Routing,gateway_mismatch,PASS
-C08,Routing,"gateway_mismatch, missing_route",PASS
+C06,Inter-VLAN Routing,gateway_mismatch,REVIEW
+C07,Inter-VLAN Routing,gateway_mismatch,REVIEW
+C08,Routing,missing_route,REVIEW
 C09,Default Gateway,gateway_mismatch,REVIEW
-C10,Routing,none,REVIEW
+C10,Routing,missing_route,REVIEW
 C11,OSPF,none,REVIEW
-C12,Interface State,interface_down,PASS
+C12,Interface State,interface_down,REVIEW
 C13,DHCP Relay,dhcp_problem,REVIEW
 C14,DHCP,"gateway_mismatch, dhcp_problem",PASS
 C15,DHCP,dhcp_problem,PASS
@@ -18,7 +18,7 @@ C16,DHCP Relay,dhcp_problem,REVIEW
 C17,DNS,dns_problem,PASS
 C18,DNS,dns_problem,PASS
 C19,DNS,dns_problem,PASS
-C20,ACL,"gateway_mismatch, acl_problem",PASS
+C20,ACL,acl_problem,PASS
 C21,ACL,acl_problem,PASS
 C22,ACL,acl_problem,PASS
 C23,NAT,nat_problem,PASS
@@ -27,5 +27,5 @@ C25,NAT,"acl_problem, nat_problem",PASS
 C26,Wireless,"dhcp_problem, wireless_problem",PASS
 C27,Wireless,wireless_problem,PASS
 C28,Wireless,wireless_problem,PASS
-C29,Wireless Security,wireless_problem,PASS
+C29,Wireless Security,wireless_problem,REVIEW
 C30,Interface/Switching,interface_down,REVIEW
